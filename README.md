@@ -55,6 +55,8 @@ Welcome to the Crowdfunding ETL Mini Project repository! This project uses Pytho
 
 - Import CSV files into the corresponding SQL tables.
 
+- The order of import requires campaign to be imported last as it has FOREIGN KEYS linked to all other 3 tables
+
 - Verify the correctness of the data by running SELECT statements.
 
 ## Contributors
